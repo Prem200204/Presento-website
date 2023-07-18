@@ -1,0 +1,159 @@
+@media (min-width:320px) and (max-width:767px)
+{
+    .container{
+        width: 100%;
+    }
+    .col_sm_6{
+        width:50%;
+        flex:0 0 auto;
+    }
+    .col_sm_12{
+        width:100%;
+        flex:0 0 auto;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    /* sec1 start */
+
+    #sec1{
+        text-align: center;
+        padding-top: 120px;
+    }
+    #sec1 h1 {
+        padding-top: 30px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    #sec1 p {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+    /* sec1 end */
+    .con_box2 {
+        padding: 25px 0px 25px 0;
+    }
+    #sec3{
+        text-align: center;
+    }
+    #sec3 .con_box2  a{
+        margin-left: 20px;
+    }
+    .con_box4{
+        margin-top: 45px;
+    }
+    .con_box5 a{
+        display: inline-flex;
+        padding: 5px 10px 5px 20px;
+    }
+    .con_box6{
+        margin-top: 10px;
+    }
+    .order1{
+        order: 1;
+    }
+    .order2{
+        order: 2;
+    }
+    .con_box12 h4{
+        padding:30px 0 4px 115px;
+    }
+    .con_box12 h5{
+        padding: 0px 0 30px 115px;
+    }
+    .con_box21{
+        padding: 20px;
+    }
+    .con_box22{
+       margin-top: 20px; 
+    }
+}
+
+@media (min-width:768px) and (max-width:999px)
+{
+    .container{
+        width: 90%;
+    }
+    .col_md_6{
+        width:50%;
+        flex:0 0 auto;
+        padding:0 15px;
+    }
+    .order1{
+        order: 1;
+    }
+    .order2{
+        order: 2;
+    }
+    .col_md_3{
+    width:25%;
+	flex:0 0 auto;
+	padding:0 15px;
+    }
+    .col_md_12{
+        width:100%;
+        flex:0 0 auto;
+        padding:0 15px;
+    }
+    .hide1{
+        display: none;
+    }
+
+    /* sec1 start */
+
+    #sec1{
+        text-align: center;
+        padding-top: 120px;
+    }
+    #sec1 h1 {
+        padding-top: 30px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    #sec1 p {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+    /* sec1 end */
+
+    .con_box2{
+        padding-right: 0;
+    }
+    #sec3{
+        text-align: center;
+    }
+    .con_box4{
+        margin-top: 45px;
+    }
+    .con_box5{
+        display: flex;
+    }
+    .con_box5 a {
+        padding: 10px 45px;
+    }
+    .con_box5 i{
+        padding: 0;
+    }
+    .con_box6{
+        margin-top: 10px;
+    }
+    .con_box12 img{
+        width: 15%;
+    }
+    .con_box12 h4{
+        padding: 20px 0 4px 95px;
+    }
+
+}
+@media(min-width:1000px)
+{
+    .container{
+        width: 90%;
+    }
+}
