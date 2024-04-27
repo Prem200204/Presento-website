@@ -514,10 +514,13 @@ a{
 #sec5 .con_box5 a{
 	font-family:'Raleway', sans-serif;
 	text-decoration: none;
+	width: 100%;
+	height:110px;
 	color: #111111;
     padding: 30px 20px;
     display: flex;
     align-items: center;
+	justify-content: center;
 	border: 1px solid #b9b9b9;
 }
 #sec5 .con_box5 a:hover{
