@@ -101,6 +101,7 @@ p,a{
 a{
 	text-decoration:none;
 }
+
 .header a{
 
 	font-family: 'Raleway', sans-serif;
@@ -120,6 +121,68 @@ a{
 .logo a span{
 	color:#e03a3c;
 }
+
+
+/* ======Hamburger====== */
+
+.header .hamburger {
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	border: 3px solid #000;
+	border-radius: 50%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+	cursor: pointer;
+	transform: scale(.8);
+	margin-left: 10px;
+	margin-right: 10px;
+  }
+
+  .header .hamburger:after{
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	border: 3px solid #000;
+	animation: hamburger_puls 1s ease infinite;
+  }
+  .header .hamburger .bar{
+	height: 2px;
+	width: 30px;
+	position: relative;
+	background: #000;
+	z-index: -1;
+  }
+  .header .hamburger .bar::after,
+  .header .hamburger .bar::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	background: #000;
+	transition: .3s ease;
+	transition-property: top, bottom;
+  }
+  .header .hamburger .bar::after {
+	top: 8px;
+  }
+  .header .hamburger .bar::before {
+	bottom: 8px;
+  }
+  .header .hamburger.active .bar::before{
+	bottom: 0;
+  }
+  .header .hamburger.active .bar::after{
+	top: 0;
+  }
+
+
 .flex {
     display: flex;
     align-items: center;
@@ -1076,3 +1139,16 @@ a{
 
 
 /* sec14 end */
+
+
+/* key frames */
+@keyframes hamburger_puls{
+	0%{
+	  opacity: 1;
+	  transform: scale(1);
+	}
+	100%{
+	  opacity: 0;
+	  transform: scale(1.4);
+	}
+  }
