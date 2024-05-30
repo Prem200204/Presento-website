@@ -13,7 +13,11 @@
     }
 
     .hide{
-        display: none;
+        display: none; 
+    }
+
+    .header .container .navbar ul .drop_down1{
+        display: none !important;
     }
 
     /* sec1 start */
@@ -150,6 +154,10 @@
     }
     .hide1{
         display: none;
+    }
+
+    .header .container .navbar ul .drop_down1{
+        display: none !important;
     }
 
 
